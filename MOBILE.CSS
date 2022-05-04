@@ -1,0 +1,33 @@
+ *{
+     box-sizing:border-box ;
+ }
+ body{
+     margin: 0;
+     font-size: medium; 
+ }
+ h1{
+     text-align: center;
+     font-size: large;
+ }
+ a{
+     text-decoration: none;
+     font-size: 1.2rem;
+     color: white;
+ }
+ [class*="col-"]{
+     float: left;
+     padding: 10px;
+ }
+ [class*="col-"]{
+    width: 100%;
+}
+ .nb{
+     background-color: rebeccapurple;
+     padding: 1% 7%;
+     text-align: center;
+ }
+ .nb::after{
+     content: '';
+     display: table;
+     clear: both;
+ }
